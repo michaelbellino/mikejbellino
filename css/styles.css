@@ -7,29 +7,36 @@ body {
     font-weight: 400;
 }
 #landing {
-    width:60%;
+    width:70%;
     position: relative;
-    left:20%;
-    right:20%;
+    left:15%;
+    right:15%;
 }
 #header {
     width:auto;
 }
-#glyph {
-    height:50px;
-    width:50px;
-    position: fixed;
+#glyphs {
+    width:33%;
+    margin-bottom:-70px;
+}
+a:hover {
+    color:black;
+    text-decoration: underline;
 }
 h3 {
-    position:relative;
-    left:55px;
-}
-#footer {
     color:black;
     position:relative;
-    top:200px;
+    font-family: modesto-open-inline-fill, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+#footer {
+    font-size:14px;
+    color:black;
+    position:relative;
+    top:170px;
+    
 }
 #main {
     height:100%;
-}
 }
