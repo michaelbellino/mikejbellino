@@ -1,27 +1,42 @@
 
 
 body {
+    height:auto;
+    width:100%;
     background-color:white;
     font-family: modesto-open-inline-fill, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 #landing {
-    width:70%;
+    width:50%;
     position: relative;
-    left:15%;
-    right:15%;
+    left:25%;
+    right:25%;
 }
+#contact {
+    position: relative;
+    left:20%;
+    right:20%;
+}
+
 #header {
     width:auto;
 }
 #glyphs {
     width:33%;
-    margin-bottom:-70px;
+    margin-top:-40px;
 }
 a:hover {
     color:black;
     text-decoration: underline;
+}
+#heading {
+    position:relative;
+    width:430px;
+}
+#nav {
+    
 }
 h3 {
     color:black;
@@ -30,11 +45,20 @@ h3 {
     font-style: normal !important;
     font-weight: 400 !important;
 }
+#vidgallery video {
+    box-shadow: 8px 8px 8px grey;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#vidgallery {
+    padding-bottom:18%;
+}
 #footer {
     font-size:14px;
     color:black;
-    position:relative;
-    top:170px;
+    position:static;
+    bottom:20px;
     
 }
 #main {
