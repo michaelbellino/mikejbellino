@@ -8,24 +8,43 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+#main {
+    height:100%;
+    display:flex;
+}
 #landing {
-    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-30px;
+    width: 45%;
     position: relative;
-    left:25%;
-    right:25%;
+    flex-basis:content;
+}
+#contactbox {
+    display:flex;
+    height:100%;
 }
 #contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     position: relative;
-    left:20%;
-    right:20%;
+    flex-basis:content;
 }
 
 #header {
     width:auto;
 }
+#social {
+    display:flex;
+    width:auto;
+    position:relative;
+    margin-top:-8%;
+}
 #glyphs {
-    width:33%;
-    margin-top:-40px;
+    width:100%;
+    flex-basis:fit-content;
+    
 }
 a:hover {
     color:black;
@@ -61,6 +80,4 @@ h3 {
     bottom:20px;
     
 }
-#main {
-    height:100%;
-}
+
