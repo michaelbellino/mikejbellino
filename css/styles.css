@@ -16,9 +16,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top:-30px;
-    width: 45%;
+    width:auto;
     position: relative;
-    flex-basis:content;
+    flex-basis:45%;
 }
 #contactbox {
     display:flex;
