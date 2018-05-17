@@ -9,6 +9,7 @@ body {
     font-weight: 400;
 }
 #main {
+    width:auto;
     height:auto;
     display:flex;
 }
