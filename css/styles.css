@@ -9,17 +9,16 @@ body {
     font-weight: 400;
 }
 #main {
-    height:100%;
+    height:auto;
     display:flex;
 }
 #landing {
     margin-left: auto;
     margin-right: auto;
     margin-top:-30px;
-    width:auto;
-    heigth:auto;
+    height: auto;
     position: relative;
-    flex-basis:50%;
+    flex-basis:45%;
 }
 #tvbutton {
     margin-left: auto;
