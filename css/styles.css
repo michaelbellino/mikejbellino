@@ -16,9 +16,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top:-30px;
-    height: auto;
+    height:75%;
     position: relative;
-    flex-basis:45%;
+    flex-basis:content%;
 }
 #tvbutton {
     margin-left: auto;
