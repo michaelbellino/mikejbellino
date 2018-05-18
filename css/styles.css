@@ -1,6 +1,7 @@
 
 
 body {
+    margin-top:-10px;
     height:auto;
     width:100%;
     background-color:white;
@@ -16,7 +17,6 @@ body {
 #landing {
     margin-left: auto;
     margin-right: auto;
-    margin-top:-5%;
     width:50%;
     flex-basis:100%;
 }
