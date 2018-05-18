@@ -54,10 +54,10 @@ body {
 }
 #social {
     display:flex;
-    width:75%;
+    width:100%;
     height:auto;
     position:relative;
-    margin-top:-8%;
+    margin-top:-10px;
 }
 #glyphs {
     width:100%;
