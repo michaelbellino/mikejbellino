@@ -9,17 +9,16 @@ body {
     font-weight: 400;
 }
 #main {
-    width:auto;
-    height:auto;
+    width:75%;
+    height:auto%;
     display:flex;
 }
 #landing {
     margin-left: auto;
     margin-right: auto;
     margin-top:-45px;
-    height: auto;
-    position: relative;
-    flex-basis:45%;
+    width:50%;
+    flex-basis:100%;
 }
 #tvbutton {
     margin-left: auto;
@@ -41,15 +40,23 @@ body {
     position: relative;
     flex-basis:content;
 }
+#tech {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    flex-basis:content;
+}
 
 #header {
     width:auto;
 }
 #social {
     display:flex;
-    width:auto;
+    width:75%;
+    height:auto;
     position:relative;
-    margin-top:-9%;
+    margin-top:-8%;
 }
 #glyphs {
     width:100%;
