@@ -19,6 +19,7 @@ body {
     margin-right: auto;
     width:50%;
     flex-basis:100%;
+    margin-bottom:-90px;
 }
 #tvbutton {
     margin-left: auto;
@@ -54,17 +55,16 @@ body {
 }
 #social {
     display:flex;
-    width:100%;
+    width:60%;
     height:auto;
     position:relative;
-    margin-top:-10px;
 }
 #glyphs {
     width:100%;
     margin-left:auto;
     margin-right:auto;
     flex-basis:fit-content;
-    
+    margin-top:auto;
 }
 a:hover {
     color:black;
